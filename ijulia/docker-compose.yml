@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    datascience-notebook:
+        container_name: ijulia-mn
+        ports:
+            - '8888:8888'
+        volumes:
+            - '/home/dockw:/home/jovyan/2work'
+        image: jupyter/datascience-notebook
+
