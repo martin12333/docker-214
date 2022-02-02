@@ -26,9 +26,10 @@ services:
             #- 'namedvol1:/home/jovyan/work'
 
 
-        image: jupyter/base-notebook:ubuntu-20.04
+        image: jupyter/base-notebook:2022-01-31
 
-#: 1643733822:0;docker pull jupyter/base-notebook:ubuntu-20.04
+#docker pull jupyter/base-notebook:2022-01-31
+#####: 1643733822:0;docker pull jupyter/base-notebook:ubuntu-20.04
 
 volumes:
   namedvol1:

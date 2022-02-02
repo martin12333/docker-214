@@ -6,5 +6,6 @@ services:
             - '8888:8888'
         volumes:
             - '/home/dockw:/home/jovyan/2work'
-        image: jupyter/datascience-notebook
+        image: jupyter/datascience-notebook:2022-01-24
 
+#docker pull jupyter/datascience-notebook:2022-01-24
