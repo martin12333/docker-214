@@ -1,0 +1,26 @@
+    1  pwd
+    2  ll /
+    3  ll
+    4  cd work/
+    5  ll
+    6  cd c-users/
+    7  ll
+    8  cd /homedockw/
+    9  ll
+   10  mkdir fdsfs
+   11  ll
+   12  df -m
+   13  df -am
+   14  mount
+   15  history 
+   16  history >hist.221s
+    1  env
+    2  env|grep -i use
+    3  ll
+    4  env|grep -i roo
+    5  env|grep -i jov
+    6  whoami 
+    7  whoami -a
+    8  whoami --help
+    9  history 
+   10  history >>2work/hist.221s 

@@ -1,0 +1,33 @@
+version: '3.3'
+services:
+    base-notebook:
+        container_name: notebook-mn
+
+        user: root
+        # because sudo
+
+        ports:
+            - '8888:8888'
+        volumes:
+            #- '/home/dockw:/home/jovyan/2work'
+            - '/home/dockw:/home/dockw'
+
+            #- '/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+            #####- '/mnt/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+            #- '/mnt/c/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
+
+            #- '/C/Users/marti/docker-214big:/home/jovyan/docker-214big'
+
+            #####- '/C/Users/marti/docker-214:/c-users'
+
+            #- 'namedvol1:/home/jovyan/namedvol1'
+            #- 'namedvol1:/home/jovyan/work'
+
+
+        image: jupyter/base-notebook:ubuntu-20.04
+
+#: 1643733822:0;docker pull jupyter/base-notebook:ubuntu-20.04
+
+#volumes:
+#  namedvol1:
+#    external: true
