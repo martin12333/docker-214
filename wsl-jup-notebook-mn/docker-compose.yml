@@ -18,7 +18,8 @@ services:
             - '/mnt/c/Users/marti/OneDrive/docker-214:/amyclouddrive'
 
             #- '/C/Users/marti/docker-214big:/home/jovyan/docker-214big'
-            - '/mnt/c/Users/marti/docker-214big:/cdrive'
+            ###- '/mnt/c/Users/marti/docker-214big:/cdrive'
+            - '/mnt/c/Users/marti/docker-214big:/cdrivemy'
             #####- '/C/Users/marti/docker-214:/c-users'
 
             #- 'namedvol1:/home/jovyan/namedvol1'
