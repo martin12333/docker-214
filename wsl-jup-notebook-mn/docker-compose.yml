@@ -1,7 +1,8 @@
 version: '3.3'
 services:
     base-notebook:
-        container_name: notebook-mn
+        #container_name: notebook-mn
+        container_name: jupyter-mn
 
         user: root
         # because sudo
@@ -15,7 +16,8 @@ services:
             #- '/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
             #####- '/mnt/C/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
             #- '/mnt/c/Users/marti/OneDrive/docker-214:/home/jovyan/myclouddrive'
-            - '/mnt/c/Users/marti/OneDrive/docker-214:/amyclouddrive'
+            #- '/mnt/c/Users/marti/OneDrive/docker-214:/amyclouddrive'
+            - '/mnt/c/Users/marti/OneDrive/docker-214:/home/jovyan/acloudSUBDIR'
 
             #- '/C/Users/marti/docker-214big:/home/jovyan/docker-214big'
             ###- '/mnt/c/Users/marti/docker-214big:/cdrive'
